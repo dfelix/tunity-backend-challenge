@@ -1,0 +1,32 @@
+{
+  "name": "tunity-backend-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfelix/tunity-backend-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dfelix/tunity-backend-challenge/issues"
+  },
+  "homepage": "https://github.com/dfelix/tunity-backend-challenge#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "got": "^12.0.1",
+    "jsdom": "^19.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

@@ -32,10 +32,10 @@ Navigate to `http://localhost:3000`
 The folder structure of this app is explained below:
 
 | Name                       | Description                                                                                       |
-| -------------------------- | ------------------------------------------------------------------------------------------------- | ------------- |
-| **src**/index.ts           | Entry point to express app                                                                        |
+| -------------------------- | ------------------------------------------------------------------------------------------------- |
+| **src**/index.ts           | Entry point to express                                                                            |
 | **src**/site-map-parser.js | SiteMapParser. Handles request, url validation and returns a clean array with links under baseURL |
-| package.json               | Contains npm dependencies as well as [build scripts](#what-if-a-library-isnt-on-definitelytyped)  | tsconfig.json |
+| package.json               | Contains npm dependencies as well as [build scripts](#what-if-a-library-isnt-on-definitelytyped)  |
 
 ## Building the project
 
